@@ -36,6 +36,10 @@ GIF created with Kap
 ## Notes
 
 Describe any challenges encountered while building the app.
+- One of the challenges was not being familiar with some of the JavaScript features, which required additional research to learn and implement.
+- There were also times when I got stuck on a challenge, and I thought I would not be able to overcome it. Despite conducting research, I couldn't make it work. However, taking a break from working on the challenges helped me. When I resumed a few days later, I had more clarity and was able to complete the challenge.
+- I had a difficult time trying to push the project because it gave me errors related to storage. I was unable to include the gif and struggled to figure out how to push it with the gif included.
+- However, I had a great time problem-solving and attempting to find solutions to some of the challenges where I got stuck.
 
 ## License
 
