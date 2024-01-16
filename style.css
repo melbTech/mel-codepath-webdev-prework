@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Cabin';
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    color: #333;
+}
+
+#tentacles {
+    width: 100px;
+}
+
+/* ====HEADER==== */
+.header {
+    display: flex;
+    padding: 1%;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    justify-content: space-between;
+}
+
+.search-container {
+    position: relative;
+}
+
+
+/* ====STATS==== */
+.stats-container {
+    display: flex;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+}
+
+/* ==== STATS CARDS ==== */
+.stats-card {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    color: #333;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+#num-contributions, #total-raised, #num-games {
+    font-size: 50px;
+}
+
+/* ====GAMES=== */
+#games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFFFFF;
+}
+
+.game-card {
+    background-color: #FFFFFF;
+    padding: 1%;
+    margin: 1%;
+    width: 295px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.game-card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#button-container {
+    text-align: center;
+}
+
+button,
+.menu-button {
+    padding: 1% 1.5%;
+    margin: 1%;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer; 
+}
+
+button:hover,
+.menu-button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #fff;
+}
